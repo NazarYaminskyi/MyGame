@@ -160,7 +160,7 @@ window.onload = function () {
     }
 
     if (lost) {
-      winningMessage.text = "YOU LOST :\()";
+      winningMessage.text = "YOU LOST :(";
     }
   }
 
