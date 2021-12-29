@@ -18,15 +18,17 @@ function addItems() {
   items = game.add.physicsGroup();
   createItem(375, 400, 'coin');
   createItem(575, 500, 'coin');
+  createItem(650, 500, 'coin');
   createItem(225, 500, 'coin');
   createItem(100, 250, 'coin');
   createItem(575, 150, 'coin');
+  createItem(525, 100, 'coin');
   createItem(525, 300, 'coin');
   createItem(650, 250, 'coin');
   createItem(225, 200, 'coin');
   createItem(375, 100, 'poison');
   createItem(150, 100, 'poison');
-  createItem(370,500,'poison');
+  createItem(370, 500,'poison');
   createItem(100, 375, 'poison');
   createItem(125, 30, 'star');
 }
