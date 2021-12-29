@@ -19,12 +19,6 @@ function addItems() {
   createItem(375, 400, 'coin');
   createItem(575, 500, 'coin');
   createItem(225, 500, 'coin');
-  createItem(100, 250, 'coin');
-  createItem(575, 150, 'coin');
-  createItem(525, 300, 'coin');
-  createItem(650, 250, 'coin');
-  createItem(225, 200, 'coin');
-  createItem(375, 100, 'poison');
   createItem(370,500,'poison');
   createItem(100, 375, 'poison');
   createItem(125, 50, 'star');
@@ -32,12 +26,6 @@ function addItems() {
 
 // add platforms to the game
 function addPlatforms() {
-  platforms = game.add.physicsGroup();
-  platforms.create(450, 550, 'platform');
-  platforms.create(100, 550, 'platform');
-  platforms.create(300, 450, 'platform');
-  platforms.create(250, 150, 'platform');
-  platforms.create(50, 300, 'platform');
   platforms.create(150, 250, 'platform');
   platforms.create(650, 300, 'platform');
   platforms.create(550, 200, 'platform2');
