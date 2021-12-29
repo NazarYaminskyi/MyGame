@@ -158,7 +158,7 @@ window.onload = function () {
       won = false
     }
 
-    if (!won) {
+    if (won = false) {
       winningMessage.text = "YOU LOST :\()";
     }
   }
