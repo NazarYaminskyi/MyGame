@@ -150,13 +150,13 @@ window.onload = function () {
     if (jumpButton.isDown && (player.body.onFloor() || player.body.touching.down)) {
       player.body.velocity.y = -400;
     }
-    // when the player winw the game
+    // when the player win the game
     if (won) {
       winningMessage.text = "YOU WIN!!!";
     }
 
     if (currentScore < 0){
-      lost = false;
+      lost = true;
     }
 
     if (lost) {
