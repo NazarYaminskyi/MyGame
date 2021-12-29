@@ -11,6 +11,7 @@ var winningMessage;
 var won = false;
 var currentScore = 0;
 var winningScore = 100;
+var lost = false;
 
 // add collectable items to the game
 function addItems() {
@@ -155,10 +156,10 @@ window.onload = function () {
     }
     
     if (currentScore < 0){
-      won = false
+      lost = true;
     }
 
-    if (won = false) {
+    if (lost) {
       winningMessage.text = "YOU LOST :\()";
     }
   }
